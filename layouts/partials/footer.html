@@ -2,11 +2,15 @@
     {{ if .Site.Social }}
         {{ partial "social.html" . }}
     {{ end }}
-    <p class="small">
+    <p class="small" style="margin-bottom: 5px; margin-top: 5px;">
     {{ with .Site.Params.copyright }}
         {{ . | markdownify }}
     {{ else }}
         © Copyright {{.Now.Format "2006"}} {{ .Site.Params.name }}
     {{ end }}
+    {{.Now.Format "2006"}}
+    </p>
+    <p class="small" style="margin-top: 0;">
+      <a href="http://creativecommons.org/licenses/by-nc/3.0/fr/"><img style="width: auto; height: auto; height: 1.5em; opacity: 0.6" src="/images/by-nc.eu.svg"/></a>
     </p>
 </footer>
