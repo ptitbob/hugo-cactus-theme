@@ -299,6 +299,10 @@ p.small {
 	margin-top: 20px;
 }
 
+p.copyright {
+	font-family: 'Gloria Hallelujah', cursive !important;
+}
+
 blockquote {
 	padding-left: 15px;
 	border-left: 3px solid #eee;
@@ -683,4 +687,33 @@ a.symbol {
 
 a.symbol:hover {
     color: #BCD4DA;
+}
+
+/* about style */
+
+#wrapper-about {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0px 40px 20px 40px;
+}
+.about {
+	font-family: 'Gloria Hallelujah', cursive !important;
+}
+
+.about h1 {
+	font-family: 'Gloria Hallelujah', cursive !important;
+	color: #555;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+.about h2 {
+	font-family: 'Gloria Hallelujah', cursive !important;
+	color: #555;
+	font-size: 1.3em;
+	margin-bottom: 0.8em;
+}
+
+.about p {
+	text-align: left;
 }

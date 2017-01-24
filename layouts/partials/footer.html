@@ -2,7 +2,7 @@
     {{ if .Site.Social }}
         {{ partial "social.html" . }}
     {{ end }}
-    <p class="small" style="margin-bottom: 5px; margin-top: 5px;">
+    <p class="small copyright" style="margin-bottom: 5px; margin-top: 5px;">
     {{ with .Site.Params.copyright }}
         {{ . | markdownify }}
     {{ else }}
